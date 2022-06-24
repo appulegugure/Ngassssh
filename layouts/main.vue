@@ -1,11 +1,12 @@
 <template>
-  <div>
+  <div class="main-wrap">
     <header>
       <div class="header-fixed">
         <ul>
           <li>Discoevr</li>
           <li>Learn</li>
           <li>Explore</li>
+          <li>Create</li>
         </ul>
         <serch-form @sechValueMethod="serchValue = $event"></serch-form>
         <h1><span>Value:</span>{{serchValue}}</h1>
@@ -33,12 +34,15 @@ export default {
     }
   },
   components: {
-    SerchForm
+    SerchForm,
   },
   layout: '',
 }
 </script>
 <style scoped>
+.main-wrap{
+  width: 100%;
+}
 header{
   width: 100%;
   height: 100px;
@@ -59,6 +63,7 @@ header ul li{
   padding: 10px;
 }
 footer{
+  width: 100%;
   background: rgb(30, 183, 97);
 }
 footer ul{

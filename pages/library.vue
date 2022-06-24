@@ -47,10 +47,12 @@
                       ヘルメットヘルメットヘルメットヘルメットヘルメットヘルメットヘルメットヘルメットヘルメットヘルメットヘルメット"
         ArticleSource="https://ec.midori-anzen.com/shop/c/cCA/"
         />
+      
     </div>
   </div>
 </template>
 <script>
+
 import ItemArticle from '../components/ItemArticle.vue'
 export default {
   name:'',
@@ -61,7 +63,7 @@ export default {
     }
   },
   components: {
-    ItemArticle
+    ItemArticle,
   },
   layout: 'main',
 }

@@ -7,6 +7,7 @@
 export default {
   name:'',
   props:[],
+  computed: {},
   data(){
     return{
       title:'Template'

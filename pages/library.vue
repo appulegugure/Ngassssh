@@ -5,7 +5,7 @@
         ArticleImage="img/AdobeStock_390454807.jpeg"
         ArticleTitle="手袋・手甲"
         ArticleText="手袋・手甲手袋・手甲手袋・手甲"
-        ArticleSource="https://ec.midori-anzen.com/shop/c/cHA/"
+        ArticleSource="/"
         />
       <item-article
         ArticleImage="img/AdobeStock_444890570.jpeg"
@@ -13,7 +13,7 @@
         ArticleText="ヘルメットヘルメットヘルメットヘルメットヘルメットヘルメットヘルメットヘルメットヘルメットヘルメットヘルメットヘルメットヘルメットヘルメットヘルメットヘルメットヘルメットヘルメットヘルメット
                       ヘルメットヘルメットヘルメットヘルメットヘルメットヘルメットヘルメットヘルメットヘルメットヘルメットヘルメット
                       ヘルメットヘルメットヘルメットヘルメットヘルメットヘルメットヘルメットヘルメットヘルメットヘルメットヘルメット"
-        ArticleSource="https://ec.midori-anzen.com/shop/c/cCA/"
+        ArticleSource="/"
         />
       <item-article
         ArticleImage="img/AdobeStock_307567522.jpeg"

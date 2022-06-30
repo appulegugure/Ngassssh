@@ -82,17 +82,22 @@
         ArticleSource="https://ec.midori-anzen.com/shop/c/cHA/"
         />
     </section>
+  
   </div>
   
 </template>
 <script>
 import ItemArticle from '../components/ItemArticle.vue'
+import axios from 'axios';
+
 export default {
   props:['studyTitle',],
   emits:['sectionPoint'],
+
   data(){
-    return{
-      title:'Study_Main'
+    return{  
+      title:'Study_Main',
+      posts: []
     }
   },
   components: {

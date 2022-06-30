@@ -8,7 +8,8 @@
           <h3>{{ArticleTitle}}</h3>
           <p>{{ArticleText}}</p>
           <div class="item-article-link">
-            <a v-bind:href="ArticleSource">Learn</a>
+            <nuxt-link :to="ArticleSource">Learn</nuxt-link>
+            <!-- <a v-bind:href="ArticleSource">Learn</a> -->
           </div>
         </div>
       </div>

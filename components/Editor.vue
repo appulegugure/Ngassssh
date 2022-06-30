@@ -1,25 +1,43 @@
 <template>
   <div>
-    <template>
-      <quill-editor v-model="editor" />
-    </template>
-    <p>{{editor}}</p>
-      
+    <div id="editorjs"></div>
+    <div @click="output">Json生成</div>
   </div>
-  
+
 </template>
 
 <script>
-// import { title } from 'process';
-// import { Script } from 'vm';
 
 export default {
-  data(){
-    return{
-      editor:'firdt'
+  data() {
+    return {
+      editor: null,
     }
+  },
+  mounted() {
+    this.editor = this.$editor.EditorJS({
+      holder: 'editorjs',
+      placeholder: 'No content',
+      data: {},
+      readOnly:false
+    })
+  },
+  methods:{
+    output(){
+      this.editor.save().then((outputData) => {
+        console.log('Article data: ', outputData)
+        this.$emit("bodydata",outputData);
+      }).catch((error) => {
+        console.log('Saving failed: ', error)
+      });
+    },
   }
-
 }
 </script>
+<style scoped>
 
+#editorjs{
+  background: white;
+}
+
+</style>

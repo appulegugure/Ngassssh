@@ -1,11 +1,10 @@
 <template>
   <div class="main-wrap">
-    <inpit-img-oya></inpit-img-oya>
+    <vie></vie>
   </div>
 </template>
 <script>
-import EditFrom from '@/components/Editor.vue'
-import inpitImgOya from '@/components/inputimgOya.vue'
+import Vie from '../components/Viewer.vue'
 
 export default {
   name:'',
@@ -16,8 +15,7 @@ export default {
     }
   },
   components: {
-    EditFrom,
-    inpitImgOya,
+    Vie,
 },
 }
 </script>
